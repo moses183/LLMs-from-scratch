@@ -124,7 +124,11 @@ source .venv/bin/activate
 
 &nbsp;
 > **Note:**
-> If you are using Windows, you may have to replace the command above by `source .venv/Scripts/activate` or `.venv/Scripts/activate`.
+> If you are using Windows, you may have to replace the command above by `source .venv/Scripts/activate` or `.venv/Scripts/activate`. Actually If you are using Windows, you may have to use following two commands:
+```bash
+PS D:\GitHub\LLMs-from-scratch> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+PS D:\GitHub\LLMs-from-scratch> .venv\Scripts\Activate.ps
+```
 
 
 
